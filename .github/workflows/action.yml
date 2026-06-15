@@ -19,6 +19,8 @@ jobs:
       with:
         minikube-version: 'latest'
         driver: 'docker'
+	addons: ingress
+
 
     # Étape corrigée avec le bon chemin vers le sous-dossier k8s
     - name: Apply DevOps Infrastructure
